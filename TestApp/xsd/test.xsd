@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns4:IPGApiOrderRequest  xmlns:ns4="http://ipg-online.com/ipgapi/schemas/ipgapi"  xmlns:ns2="http://ipg-online.com/ipgapi/schemas/a1"  xmlns:ns3="http://ipg-online.com/ipgapi/schemas/v1">
+  <ns3:Transaction>
+    <ns3:CreditCardTxType>
+      <ns3:Type>sale</ns3:Type>
+    </ns3:CreditCardTxType>
+    <ns3:CreditCardData>
+      <ns3:CardNumber>403587XXXXXX4977</ns3:CardNumber>
+      <ns3:ExpMonth>12</ns3:ExpMonth>
+      <ns3:ExpYear>22</ns3:ExpYear>
+      <ns3:CardCodeValue>XXX</ns3:CardCodeValue>
+    </ns3:CreditCardData>
+    <ns3:CreditCard3DSecure>
+      <ns3:AuthenticationValue>jEET5Odser3oCRAyNTY5BVgAAAA=</ns3:AuthenticationValue>
+      <ns3:XID>jHDMyjJJF9bLBCFT/YUbqMhoQ0s=</ns3:XID>
+      <ns3:Secure3D2TransactionStatus>Y</ns3:Secure3D2TransactionStatus>
+      <ns3:Secure3D2AuthenticationResponse>Y</ns3:Secure3D2AuthenticationResponse>
+      <ns3:Secure3DProtocolVersion>2.1.0</ns3:Secure3DProtocolVersion>
+      <ns3:DirectoryServerTransID>12345678</ns3:DirectoryServerTransID>
+    </ns3:CreditCard3DSecure>
+    <ns3:Payment>
+
+      <ns3:ChargeTotal>1</ns3:ChargeTotal>
+      <ns3:Currency>978</ns3:Currency>
+    </ns3:Payment>
+    <ns3:TransactionDetails>
+      <ns3:OrderId>API-Test-Order123456789</ns3:OrderId>
+    </ns3:TransactionDetails>
+  </ns3:Transaction>
+</ns4:IPGApiOrderRequest>

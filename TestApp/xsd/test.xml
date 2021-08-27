@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomerType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CustomerID="123">
+  <CompanyName>www</CompanyName>
+  <ContactName>sdsds</ContactName>
+  <ContactTitle>eee</ContactTitle>
+  <Phone>011</Phone>
+  <Fax>2222232</Fax>
+  <FullAddress>
+    <Address>adsadswedsd</Address>
+    <City>wsdsds</City>
+    <Country>cccccc</Country>
+  </FullAddress>
+</CustomerType>
